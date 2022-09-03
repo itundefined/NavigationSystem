@@ -17,6 +17,18 @@ body{
 }
 
 
+.project h1{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    font-weight: 300;
+}
+
+.project h2{
+    font-weight: 200;
+}
+
+
+
 .project-container{
     font-family: var(--default-font);
     display: flex;
@@ -36,7 +48,6 @@ body{
 
 
 .project:hover{
-    cursor: pointer;
     background-color: rgba(255, 255, 255, 90);
 }
 
@@ -46,4 +57,53 @@ body{
     justify-content: flex-start;
     align-items: flex-start;
     gap: 10px;
+}
+
+.link-container{
+    margin-top: 30px;
+}
+
+.link-container button {
+    position: relative;
+    z-index: 1;   
+    width: 100px;
+    height: 50px;
+    background-color: whitesmoke;
+    box-shadow: 0 0 20px rgb(0 0 0 / 10%);
+    font-family: var(--default-font);
+    letter-spacing: var(--letterSpacing);
+    border: solid 0.40px rgba(0, 0, 0, 10%);
+    cursor: pointer;
+    transition: 500ms; 
+    font-weight: bold;
+}
+
+.link-container button::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 500ms ease-in-out;
+}
+
+.liveLink::before{
+    background-color: #0AF;
+}
+
+.githubLink::before{
+    background-color: rgb(229, 111, 14);
+}
+
+.link-container button:hover::before{
+    transform: scaleX(1);
+}  
+
+
+.link-container button:hover{
+    color: whitesmoke;
 }
