@@ -20,8 +20,8 @@ allprojects.map(x => {
         <h1>${x.heading}</h1>
         <h2>${x.subHeading}</h2>
         <div class="link-container"> 
-        <a class="liveLink" href=${x.url} target="__blank"><button>Live</button></a>
-        <a class="githublink" href=${x.githubUrl} target="__blank"><button>Github</button></a>
+        <a href=${x.url} target="_blank"><button class="liveLink">Live</button></a>
+        <a href=${x.githubUrl} target="__blank"><button class="githubLink">Github</button></a>
         </div>
     </div>
 </div>`
