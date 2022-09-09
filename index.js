@@ -6,7 +6,13 @@ const allprojects = [{url:"https://itundefined.netlify.app/advancetodolist/todo"
                       {url:"https://itundefined.netlify.app/youtubeclone/html/", 
                       githubUrl: "https://github.com/itundefined/front-end-projects/tree/main/YoutubeClone",
                       heading:"Youtube Clone",
-                      subHeading:"This is the youtube Clone"}
+                      subHeading:"This is the youtube Clone"},
+                     
+                      {url:"https://itundefined.netlify.app/YoutubeClone2.0/html/", 
+                      githubUrl: "https://github.com/itundefined/front-end-projects/tree/main/YoutubeClone2.0",
+                      heading:"Youtube Clone 2.0 ",
+                      subHeading:"Youtube Better Clone!!!"},
+                     
                     ]
 
 // now just to add the adjacent html in the html file
