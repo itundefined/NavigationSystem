@@ -1,4 +1,9 @@
-const allprojects = [{url:"https://itundefined.netlify.app/advancetodolist/todo",
+const allprojects = [ {url:"https://itundefined.netlify.app/pricetable/", 
+                      githubUrl: "https://github.com/itundefined/front-end-projects/tree/main/pricetable",
+                      heading:"Price Table",
+                      subHeading:"Hostinger Price Table Clone!!!"},
+                     
+                      {url:"https://itundefined.netlify.app/advancetodolist/todo",
                       githubUrl: "https://github.com/itundefined/front-end-projects/tree/main/AdvanceTodoList",
                       heading:"Todo List",
                       subHeading:"This is an amazing application for keeping your notes"},
@@ -12,7 +17,6 @@ const allprojects = [{url:"https://itundefined.netlify.app/advancetodolist/todo"
                       githubUrl: "https://github.com/itundefined/front-end-projects/tree/main/YoutubeClone2.0",
                       heading:"Youtube Clone 2.0 ",
                       subHeading:"Youtube Better Clone!!!"},
-                     
                     ]
 
 // now just to add the adjacent html in the html file
