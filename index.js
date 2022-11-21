@@ -17,6 +17,11 @@ const allprojects = [ {url:"https://itundefined.netlify.app/pricetable/",
                       githubUrl: "https://github.com/itundefined/front-end-projects/tree/main/YoutubeClone2.0",
                       heading:"Youtube Clone 2.0 ",
                       subHeading:"Youtube Better Clone!!!"},
+
+                      {url:"https://itundefined.netlify.app/classicGame", 
+                      githubUrl: "https://github.com/itundefined/front-end-projects/tree/main/classicGame",
+                      heading:"classicGame",
+                      subHeading:"Rock paper lizard spock scissors!!!"},                     
                     ]
 
 // now just to add the adjacent html in the html file
