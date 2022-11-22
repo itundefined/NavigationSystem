@@ -21,7 +21,13 @@ const allprojects = [ {url:"https://itundefined.netlify.app/pricetable/",
                       {url:"https://itundefined.netlify.app/classicGame", 
                       githubUrl: "https://github.com/itundefined/front-end-projects/tree/main/classicGame",
                       heading:"classicGame",
-                      subHeading:"Rock paper lizard spock scissors!!!"},                     
+                      subHeading:"Rock paper lizard spock scissors!!!"}, 
+                     
+                      {url:"https://itundefined.netlify.app/portfoliowebsite/", 
+                      githubUrl: "https://github.com/itundefined/front-end-projects/tree/main/PortfolioWebsite",
+                      heading:"Portfolio Website",
+                      subHeading:"My Personal Portfolio Website"},                             
+                     
                     ]
 
 // now just to add the adjacent html in the html file
