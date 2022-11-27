@@ -5,7 +5,7 @@ const allprojects = [ {url:"https://itundefined.netlify.app/pricetable/",
                      
                       {url:"https://itundefined.netlify.app/advancetodolist/todo",
                       githubUrl: "https://github.com/itundefined/front-end-projects/tree/main/AdvanceTodoList",
-                      heading:"Todo List",
+                      heading:"Old Todo List",
                       subHeading:"This is an amazing application for keeping your notes"},
 
                       {url:"https://itundefined.netlify.app/youtubeclone/html/", 
@@ -26,7 +26,12 @@ const allprojects = [ {url:"https://itundefined.netlify.app/pricetable/",
                       {url:"https://itundefined.netlify.app/portfoliowebsite/", 
                       githubUrl: "https://github.com/itundefined/front-end-projects/tree/main/PortfolioWebsite",
                       heading:"Portfolio Website",
-                      subHeading:"My Personal Portfolio Website"},                             
+                      subHeading:"My Personal Portfolio Website"},     
+                     
+                      {url:"https://itundefined.netlify.app/fancyList/", 
+                      githubUrl: "https://github.com/itundefined/front-end-projects/tree/main/fancyList",
+                      heading:"A New Fancy ToDo List",
+                      subHeading:"It Consists of CURD operation, Todo list"},                          
                      
                     ]
 
