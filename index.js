@@ -3,16 +3,6 @@ const allprojects = [ {url:"https://itundefined.netlify.app/pricetable/",
                       heading:"Price Table",
                       subHeading:"Hostinger Price Table Clone!!!"},
                      
-                      {url:"https://itundefined.netlify.app/advancetodolist/todo",
-                      githubUrl: "https://github.com/itundefined/front-end-projects/tree/main/AdvanceTodoList",
-                      heading:"Old Todo List",
-                      subHeading:"This is an amazing application for keeping your notes"},
-
-                      {url:"https://itundefined.netlify.app/youtubeclone/html/", 
-                      githubUrl: "https://github.com/itundefined/front-end-projects/tree/main/YoutubeClone",
-                      heading:"Youtube Clone",
-                      subHeading:"This is the youtube Clone"},
-                     
                       {url:"https://itundefined.netlify.app/YoutubeClone2.0/html/", 
                       githubUrl: "https://github.com/itundefined/front-end-projects/tree/main/YoutubeClone2.0",
                       heading:"Youtube Clone 2.0 ",
