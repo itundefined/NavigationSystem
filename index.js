@@ -23,7 +23,7 @@ const allprojects = [ {url:"https://itundefined.netlify.app/pricetable/",
                       heading:"classicGame",
                       subHeading:"Rock paper lizard spock scissors!!!"}, 
                      
-                      {url:"https://itundefined.netlify.app/portfoliowebsite/", 
+                      {url:"https://codeoneb.netlify.app/", 
                       githubUrl: "https://github.com/itundefined/front-end-projects/tree/main/PortfolioWebsite",
                       heading:"Portfolio Website",
                       subHeading:"My Personal Portfolio Website"},     
